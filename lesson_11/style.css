@@ -1,0 +1,18 @@
+h2 {
+    color: brown;
+}
+
+p {   /* если нет классов и id, то применится это правило */
+    background-color: brown;
+    color: blue;
+}
+
+.p_1{       /* селекторы по классам на втором месте  */
+    background-color: yellowgreen;
+    color: blueviolet;
+}
+
+#p_1 {        /* применится это правило применится, так как селекторы по id в приоритете на первом месте */
+    background-color: black;
+    color: azure;
+}
