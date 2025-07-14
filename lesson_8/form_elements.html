@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <fieldset>
+            <legend>Username</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+              <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="us">United States</option>
+                <option value="ca">Canada</option>
+                <option value="uk">United Kingdom</option>
+                <option value="au">Australia</option>
+            </select>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+        <fieldset>
+            <legend>Message</legend>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50"></textarea>
+            <label for="country">Country:</label>
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+        </fieldset>
+    </form>
+</body>
+</html>
