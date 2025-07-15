@@ -1,0 +1,40 @@
+h1 {             /* Задание 1 */ 
+    color: red; 
+    text-align: center;
+}
+            
+h2 {            /* Задание 1 */  
+    color: blue;
+}
+
+.p1 {           /* Задание 1 */ 
+    font-size: 22px;
+}
+
+.p2 {          /* Задание 1 */ 
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.cont1 {       /* Задание 2, 3, 4 */ 
+    width: 600px;
+    height: 200px;
+    background-color: chartreuse;
+    padding: 10px 5px;
+    margin: 10px 15px;
+    border: 3px solid black;
+    overflow: auto;
+}
+
+.cont2 {       /* Задание 2, 3, 4 */ 
+    width: 400px;
+    height: 600px;
+    color: chartreuse;
+    background-image: url('image.jpg');
+    background-repeat: no-repeat;
+    padding: 10px 5px;
+    margin: 10px 15px;
+    border: 3px solid black;
+    overflow: scroll;
+}
+
