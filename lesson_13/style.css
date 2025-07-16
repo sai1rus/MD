@@ -1,0 +1,55 @@
+html {  
+    font-size: 20px;
+}
+
+.cont {   /* единицы измерения в пикселях для сновного контейнера(родительского)*/
+    width: 1500px;
+    margin: 10px 200px;
+    font-size: 18px;
+    border: 3px solid black;
+}
+
+.title1 {
+    text-align: center;
+    font-size: 2.3em; /* 2.3em(18px*3) для основного заголовка */
+}
+
+.box1 {  /* использовались vh, vw и rem, цвета - HEX */
+    height: 50vh;
+    width: 50vw;
+    margin: 5px 21px;
+    padding: 15px;
+    font-size: 1.5rem; /* 20px*1.5 */
+    background-color: #FF0000;
+    color: #FFFFFF;
+}
+
+.box2 {  /* использовались % и rem, цвета - RGB */
+    height: 50%;
+    width: 95%;
+    margin: 10px 21px;
+    padding: 15px;
+    font-size: 1.5rem; /* 20px*1.5 */
+    background-color: rgb(0, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+.box3 {  /* rem, RGBA */
+    height: auto;
+    width: auto;
+    margin: 10px 21px;
+    padding: 15px;
+    font-size: 1.5rem; /* 20px*1.5 */
+    background-color: rgba(255, 255, 0, 0.5);
+}
+
+h2 { /* em */
+    margin: 0;
+    padding: 0;
+    font-size: 0.9em; /* (20px*1.5)*0.9 */
+    text-align: center;
+}
+
+p { /* em */
+    font-size: 0.7em; /* (20px*1.5)*0.7 */
+}
