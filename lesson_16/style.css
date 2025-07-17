@@ -1,0 +1,105 @@
+.cont {
+    margin: 20px;
+    padding: 20px;
+    border: 3px solid black;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.button {
+    width: 150px;
+    height: 50px;
+    margin-left: 10px;
+    font-size: 20px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.button:hover {   /* Задание 1 */
+    color: aqua;
+    background-color: blue;
+    border: 2px solid aqua;
+}
+
+.input {  
+    width: 300px;
+    height: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+.input:focus {   /* Задание 1 */
+    background-color: white;
+}
+
+.list-item {
+    font-size: 20px;
+}
+
+.list-item:first-child {  /* Задание 2 */
+    color: red;
+}
+
+.list-item:last-child {  /* Задание 2 */
+    color: blue;
+}
+
+.cont-task_3 .item {
+    margin: 10px;
+    padding: 10px;
+}
+
+.cont-task_3 .item a {  /* Задание 3 */
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.cont-task_3 .item a:hover {  /* Задание 3 */
+    background-color: red;
+    color: white;
+}
+
+.cont-task_3 .item a:focus {  /* Задание 3 */
+    background-color: red;
+    color: white;
+}
+
+.cont-task_3 .item:first-child {  /* Задание 3 */
+    background-color: blue;
+    color: white;
+}
+
+.cont-task_3 .item:last-child {  /* Задание 3 */
+    background-color: yellow;
+}
+
+.cont-task_3 .item:nth-child(odd) {  /* Задание 3 */
+    color: aqua;
+}
+
+.cont-task_4 a.task_4-item { 
+    color: white;
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.cont-task_4 .task_4-item:first-child:hover { /* Задание 4 */
+    background-color: blue;
+    color: white;
+}
+
+.cont-task_4 .task_4-item:last-child:focus { /* Задание 4 */
+    background-color: red;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+}
+
+
+
