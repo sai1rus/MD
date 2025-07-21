@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task {
+    margin: 20px;
+    border: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.box-block { /* Задание 1 - блочный элемент  */
+    display: block;
+}
+
+.box-inline { /* Задание 1 - строчный элемент  */
+    display: inline;
+}
+
+.box-flex { /* Задание 1 - также блочный элемент, который является контейнером Flexbox  */
+    display: flex;
+}
+
+.container { /* Задание 2 - все дочерние блоки выстроены в одну строку */
+    display: flex;
+}
+
+.cont-task3 { /* Задание 3  */
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.cont-task4 { /* Задание 4  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.cont-task5 {  /* Задание 5  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-task5 {  /* Задание 5  */
+    flex: 1 1 25%;
+}
+
+.box-task5:first-child {  /* Задание 5  */
+    flex: 1 1 50%;
+}
+
+.box-task5:last-child {  /* Задание 5  */
+    flex: 1 1 30%;
+}
+
+.cont-task6 {  /* Задание 6  */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box-task6:nth-child(1) {  /* Задание 6  */
+    flex: 0 0 50%;
+}
+
+.box-task6:nth-child(2) {  /* Задание 6  */
+    flex: 1 1 auto;
+}
+
+.box-task6:nth-child(3) {  /* Задание 6  */
+    flex: 1 1 100px;
+    color: white;
+}
+
+.cont-task7 {  /* Задание 7 */
+    margin: 10px;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aqua;
+}
+
+.logo {  /* Задание 7 */
+    font-size: 30px;
+    font-weight: 500;
+    color: #333;
+}
+
+
+.menu {  /* Задание 7 */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+.menu a {  /* Задание 7 */
+    text-decoration: none;
+    font-size: 18px;
+    color:#666;
+}
+
+.cont-task8 {   /* Задание 8 */
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cart {   /* Задание 8 */
+    flex: 0 0 20%;
+    height: 200px;
+    margin: 10px;
+    padding: 20px;
+    background-color: aqua;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 12px;  
+}
+
+.cart h4 {   /* Задание 8 */
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 20px;
+    color: #333;
+}
+
+.cart p {   /* Задание 8 */
+    font-size: 16px;
+    color: #666;
+}
+
