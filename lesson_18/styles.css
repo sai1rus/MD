@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.task {
+    margin: 10px;
+    border: 3px solid black;
+}
+
+h2 {
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    background-color: aqua;
+}
+
+.positionStatic {  /* Задание 1 - при position: static элементы позиционируются стандартно по умолчанию, статично */
+    position: static;
+}
+
+.positionRelative1 {  /* Задание 2 - при position: relative позиционирование также стандартное, но можно смещать элементы */
+    position: relative;
+    left: 50px;
+    top: 50px;
+}
+
+.positionRelative2 {  /* Задание 2 - при position: relative позиционирование также стандартное, но можно смещать элементы */
+    position: relative;
+    left: 100px;
+    bottom: 50px;
+}
+
+.positionRelative3 {  /* Задание 2 - при position: relative позиционирование также стандартное, но можно смещать элементы */
+    position: relative;
+    left: 150px;
+    bottom: 150px;
+}
+
+.container {  /* Задание 3 - родительский контейнер с position: relative */
+    position: relative;
+    height: 300px;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+.positionAbsolute1 { /* Задание 3 - при position: absolute элемент позиционируется относительно родительского контейнера с position: relative*/
+    position: absolute;
+    right: 50px; /* элемент позиционируется справа */
+}
+
+.positionAbsolute2 { /* Задание 3 - при position: absolute элемент позиционируется относительно родительского контейнера с position: relative*/
+    position: absolute;
+    left: 50px; /* элемент позиционируется слева */
+}
+
+.positionAbsolute3 { /* Задание 3 - при position: absolute элемент позиционируется относительно родительского контейнера с position: relative*/
+    position: absolute;
+    left: 800px;
+    bottom: 5px;
+}
+
+.positionFixed { /* Задание 4 - при position: fixed элемент имеет фиксированное расположение и остается на месте при прокрутки страницы */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.task5 {  /* Задание 5 */
+    height: 2000px; /* задана большая высота, чтобы можно было прокрутить страницу */
+}
+
+h3 { /* Задание 4 - при position: sticky элемент фиксируется в момент прокрутки страницы */
+    position: sticky;
+    top: 10px;
+}
+
+
