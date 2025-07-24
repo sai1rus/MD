@@ -1,0 +1,510 @@
+/* Шрифты */
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/DMSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./fonts/DMSans-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Общие стили */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #FFF;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 22px;
+    background-color: #191919;
+}
+
+header, section, footer {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.musical-platforms{
+    display: flex;
+    gap: 18px;
+    list-style-type: none;
+}
+
+.musical-platforms-icons {
+    width: 32px;
+    height: 32px;
+}
+
+.btn {
+    max-height: 51px;
+    padding: 14px 20px 15px 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.148px;
+    background-color: #118DA8;
+    border-radius: 6px;
+}
+
+/* Шапка */
+
+.header {
+    display: flex;
+    padding: 26px 50px;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+
+.logo {
+    max-width: 159px;
+    max-height: 33px;
+}
+
+.logo-img{
+    width: 100%;
+    height: 100%;
+}
+
+.menu {
+    display: flex;
+    max-width: 403px;
+    max-height: 67px;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    list-style-type: none;
+}
+
+
+.menu-item-link {
+    color: #FFF;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.menu-item-link:hover {
+    color: #118DA8;
+}
+
+/* 1 секция */
+
+.hero {
+    display: flex;
+    padding: 14px 70px 42px 40px;
+    gap: 60px;
+}
+
+.hero-img {
+     max-width: 676px;
+     max-height: 899.44px;
+}
+
+.hero-img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.hero-content {
+    max-width: 530px;
+    
+}
+
+.hero-content-promo {
+    margin-top: 320px;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 88px;
+    letter-spacing: 3.2px;
+}
+
+.next-word {
+    position: relative;
+    font-size: 75px;
+    font-weight: 400;
+}
+
+.next-word svg {
+    position: absolute;
+    left: 0;
+    right: 1em;
+    top: 1.15em;
+}
+
+.level-word {
+    font-size: 80px;
+    font-weight: 700;
+}
+
+.hero-content-platforms {
+    margin-top: 85px;
+    margin-left: 25px;
+}
+
+.hero-content-platforms p {
+    margin-bottom: 16px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.332px;
+}
+
+/* 2 секция */
+
+.records {
+    padding: 42px 70px 160px 70px;
+}
+
+.records-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: self-end;
+}
+
+.records-title h2 {
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.records-list {
+    margin-top: 4px;
+}
+
+.records-episode {
+    display: flex;
+    margin-top: 60px;
+    padding: 40px;
+    background-color: #000;
+    border-radius: 32px;
+
+}
+
+.episode-img {
+    max-width: 389px;
+    max-height: 465px;
+}
+
+.episode-content {
+    margin-left: 53px;
+}
+
+.episode-type {
+    padding: 1.5px 16px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0.17px;
+    background-color: #191919;
+    border-radius: 6px;
+}
+
+.episode-number {
+    margin-top: 48px;
+    color:#118DA8;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.episode-number span {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.episode-title {
+    margin-top: 18px;
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+
+.episode-description {
+    margin-top: 28px;
+    margin-bottom: 32px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.records-episode .btn {
+    font-size: 18px;
+}
+
+/* 3 секция */
+
+.host {
+    display: flex;
+    padding: 100px 70px;
+    align-items: center;
+}
+
+.host-content {
+    margin-right: 60px;
+}
+
+.host-btn {
+    display: flex;
+    width: 112px;
+    height: 112px;
+    justify-content: center;
+    align-items: center;
+    background-color: #118DA8;
+    border-radius: 400px;
+}
+
+
+.host-btn a img {
+    width: 71px;
+    height: 38px;
+}
+
+.host-label {
+    margin-top: 20px;
+    color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.host-title {
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+
+}
+
+.host-description {
+    margin-top: 28px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.host-foto {
+    max-width: 650px;
+    max-height: 743px;
+}
+
+/* 4 секция */
+
+.subscription {
+    padding: 100px 70px 9px 70px;
+}
+
+.subscription-content {
+    display: flex;
+    padding: 60px 60px;
+    justify-content: space-between;
+    background-color: #000;
+    border-radius: 32px;
+}
+
+.subscription-title {
+    width: 36.5%;
+}
+
+.subscription-title p {
+    color: #118DA8;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.subscription-title h2 {
+    font-size: 72px;
+    font-weight: 400;
+    line-height: 79.2px;
+    letter-spacing: 2.88px;
+}
+
+.subscription-form {
+    width: 44.24%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.subscription-form input {
+    padding: 26.5px 27px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+    border-radius: 6px;
+    border: none;
+    background: #191919;
+}
+
+
+.subscription-form button {
+    max-width: 87px;
+    padding: 9px 15px 10px 19px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 29px;
+    background-color: #118DA8;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.decor-1 {
+    position: relative;
+    right: 38px;
+    bottom: 65px;
+}
+
+.decor-2 {
+    position: relative;
+    bottom: 64px;
+}
+
+.decor-3 {
+    position: relative;
+    left: 96.42px;
+    bottom: 130.7px;
+}
+
+/* 5 секция */
+
+.reviews {
+    display: flex;
+    padding: 9px 70px 100px 70px;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+.reviews-item {
+    width: 32.5%; 
+    padding: 54px 50px;
+    background-color: #000;
+    border-radius: 32px;
+}
+
+.review-text {
+    margin-top: 21px;
+    color: #FFF;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 43.2px;
+}
+
+.review-author {
+    margin-top: 19px;
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28.8px;
+}
+
+/* Подвал */
+
+.footer {
+    display: flex;
+    padding: 100px 70px 127px 70px;
+}
+
+.footer-logo_social {
+    padding-right: 19px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-logo {
+    max-width: 223px;
+    max-height: 45px;
+}
+
+.social-media {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.footer-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style-type: none;
+}
+
+.footer-menu:first-child {
+    margin-right: 120px;
+}
+
+.footer-menu-item {
+    color: #FFF;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+    text-decoration: none;
+}
+
+.footer-menu-item:hover {
+    color: #118DA8;
+}
+
+.footer-content .musical-platforms {
+    max-height: 32px;
+    padding-left: 21px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
