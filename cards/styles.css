@@ -1,0 +1,308 @@
+/* Шрифты */
+
+@font-face {
+    font-family: 'DM Sans';
+    src: url('./assets/fonts/DMSans-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/fonts/Montserrat-Regular.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('./assets/fonts/ProximaNova-Semibold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+/* Общие стили */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #191919;
+}
+
+.container {
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+/* Карточка 1 */
+
+.card-1 {
+    width: 1300px;
+    margin-bottom: 50px;
+    padding: 40px;
+    display: flex;
+    gap: 53px;
+    background-color: #000;
+    border-radius: 32px;
+}
+
+.badge {
+    width: fit-content;
+    margin-top: 7px;
+    padding: 0 16px;
+    border-radius: 6px;
+    background: #191919;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.number {
+    width: fit-content;
+    margin-top: 49px;
+    color: #118DA8;
+    font-family: 'DM Sans';
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.number span {
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.card1-title {
+    margin-top: 18px;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 64px;
+    font-weight: 400;
+    line-height: 70.4px;
+    letter-spacing: 2.56px;
+}
+
+.card1-description {
+    margin-top: 28px;
+    color: rgba(255, 255, 255, 0.70);
+    font-family: 'DM Sans';
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 33px;
+}
+
+.card1-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 15px 12px 20px;
+    text-decoration: none;
+    color: #FFF;
+    font-family: 'DM Sans';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    background: #118DA8;
+    border-radius: 6px;
+}
+
+/* Карточка 2 */
+
+.card-2 {
+    width: 290px;
+    max-height: 514px;
+    padding: 20px 20px 30px 20px;
+    background-color: #E1EDE6;;
+}
+
+.card2-autor {
+    margin-top: 13px;
+    color: #86928B;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card2-title {
+    margin-top: 9px;
+    color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.card2-description {
+    margin-top: 9px;
+    color: #2C2D35;
+    font-family: 'Raleway';
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.card2-price {
+    margin-top: 28px;
+    color: #598D66;
+    font-family: 'Raleway';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card2-btn {
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #598D66;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid #598D66;
+}
+
+/* Карточка 3 */
+
+.card-3 {
+    width: 380px;
+    max-height: 582px;
+    background-color: #FFF;
+    border-radius: 10px;
+    box-shadow: 2px 8px 16px 0 rgba(194, 198, 208, 0.06);
+}
+
+.card3-content {
+    padding: 48.5px 44px;
+}
+
+.card3-title {
+    color: #2E363E;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 143%;
+}
+
+.card3-description {
+    margin-top: 12px;
+    color: #2E363E;
+    font-family: 'Montserrat';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.card3-price {
+    margin-top: 24px;
+    color: #434B53;
+    font-family: 'Montserrat';
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 150%;
+}
+
+.card3-btn {
+    margin-top: 14px;
+    width: 163px;
+    height: 68px;
+    background-color: #FED84C;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    color: var(---, #2E363E);
+    font-family: 'Montserrat';
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 152%;
+    border: none;
+}
+
+/* Карточка 4 */
+
+.card-4 {
+    width: 330px;
+    max-height: 400px;
+    padding: 22px 23px 53px 27px;
+    background-color: #0C0B15;
+}
+
+.card4-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card4-foto{
+    width: 60px;
+    height: 60px;
+    background: #06152B;
+    border-radius: 60px;
+}
+
+.card4-title {
+    margin-top: 18px;
+    color: #FFF;
+    font-family: 'Proxima Nova';
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 27px;
+}
+
+.card4-descr {
+    margin-top: 24px;
+    color: #809FB8;
+    font-family: 'Proxima Nova';
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+}
+
+.card4-text {
+    margin-top: 27px;
+    color: #809FB8;
+    font-family: 'Proxima Nova';
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    letter-spacing: 0.8px;
+}
