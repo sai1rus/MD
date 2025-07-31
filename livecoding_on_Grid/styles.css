@@ -1,0 +1,79 @@
+ @font-face {
+    font-family: 'Raleway';
+    src: url('./assets/fonts/Raleway-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #2C2D35;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+
+.container-1110px {
+    width: 100%;
+    max-width: 1110px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.container-730px {
+    width: 100%;
+    max-width: 730px;
+    margin: 0 auto;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.painting {
+    padding: 20px 20px 25px 20px;
+    background: #E1EDE6;
+}
+
+.painting-autor {
+    margin-top: 20px;
+    color: #86928B;
+    font-size: 18px;
+}
+
+.painting-title {
+    margin-top: 10px;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.painting-description {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.painting-price {
+    margin-top: 30px;
+    color: #598D66;
+    font-size: 24px;
+}
+
+.painting-btn {
+    width: 100%;
+    margin-top: 20px;
+    padding: 20px 60px;
+    color: #598D66;
+    font-size: 20px;
+    font-weight: 500;
+    background: none;
+    border: 1px solid #598D66;
+}
