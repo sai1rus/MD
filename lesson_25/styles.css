@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.task {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Задание 1*/
+
+.task-1 p {
+    font-size: 26px;
+}
+
+.task-1 p::before {  /*::before добавляет контент(содержимое значения свойства content) перед элементом или сверху*/
+    content: "before";
+    display: block;
+    width: 67px;
+    color: #fff;
+    background-color: #000;
+    margin-top: 10px;
+}
+
+/*Задание 2*/
+
+.task-2 h2 {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.task-2 h2::after {  /*::after добавляет контент(содержимое значения свойства content) полсе элемента или снизу*/
+    content: "✓";
+    width: 28px;
+    height: 28px;
+    color: green;
+    margin-left: 5px;
+}
+
+/*Задание 3*/
+
+
+.task-3 h2 {
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.task-3 p {
+    max-width: 500px;
+    font-size: 30px;
+    font-weight: 400;
+    position: relative;
+}
+
+.task-3 .container {
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.task-3 .container::before {
+    content: " ";
+    width: 120%;
+    height: 3px;
+    display: block;
+    background-color: #000;
+    margin-bottom: 20px;
+}
+
+.task-3 .container::after {
+    content: " ";
+    width: 120%;
+    height: 3px;
+    background-color: #000;
+    margin-top: 20px;
+}
+
+.task-3 p::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 303px;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(90deg);
+    top: 74px;
+    left: -200px;
+}
+
+.task-3 p::after {
+    content: " ";
+    display: block;
+    position: absolute;
+    width: 303px;
+    height: 3px;
+    background-color: #000;
+    transform: rotate(90deg);
+    top: 74px;
+    right: -200px;
+}
