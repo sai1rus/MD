@@ -93,9 +93,8 @@ console.log(typeof(number))
 
 // Задание 6
 
-let name = prompt("Введите ваше имя: ");
-let age = prompt("Введите ваш возраст: ");
+let name = prompt("Введите ваше имя: ")
+let age = prompt("Введите ваш возраст: ")
 
 
-console.log('Имя: ${name}');
-console.log('Возраст: ${age}');
+console.log(name, age)
