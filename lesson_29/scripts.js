@@ -97,4 +97,5 @@ let name = prompt("Введите ваше имя: ")
 let age = prompt("Введите ваш возраст: ")
 
 
-console.log(name, age)
+console.log(`Имя: ${name}`)
+console.log(`Возраст: ${age}`)
