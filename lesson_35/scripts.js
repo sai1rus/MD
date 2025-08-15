@@ -45,15 +45,15 @@ do {
 
 // Задание 4
 
-// let input
+let input
 
-// while (true) {
-//     console.log("Бесконечный цикл")
-//     input = Number(prompt())
-//     if (input === 10) {
-//         break
-//     }
-// }
+while (true) {
+    console.log("Бесконечный цикл")
+    input = Number(prompt())
+    if (input === 10) {
+        break
+    }
+}
 
 
 // Задание 5
