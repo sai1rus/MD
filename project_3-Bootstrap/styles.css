@@ -37,6 +37,10 @@ body {
     font-weight: 400;
 }
 
+.container {
+    padding: 22px 84px;
+}
+
 /* Цвета */
 
 .bg-grey {
@@ -87,6 +91,30 @@ body {
     color: #D9DBE1;
 }
 
-/* .container {
-    padding: 22px 84px;
-} */
+/* Header */
+
+.header_link:active {
+    font-weight: 500;
+}
+
+.header_login button:first-child {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+    background-color: transparent;
+}
+
+.header_login button:first-child:hover, .header_login button:first-child:focus {
+    border: 2px solid #4D4D4D;
+}
+
+.header_login button:last-child {
+    padding: 10px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.header_login button:last-child:hover, .header_login button:last-child:focus {
+    border: 2px solid #4D4D4D;
+    background-color: #4CAF4F;
+}
