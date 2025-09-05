@@ -118,3 +118,34 @@ body {
     border: 2px solid #4D4D4D;
     background-color: #4CAF4F;
 }
+
+/* hero */
+
+.hero .row {
+    margin: 74px 0;
+}
+
+.hero_title {
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 76px;
+    margin: 0;
+}
+
+.hero_text {
+    line-height: 24px;
+    margin: 16px 0 0 0;
+}
+
+.hero_btn {
+    padding: 14px 32px;
+    font-weight: 500;
+    line-height: 24px;
+    max-width: 128px;
+    margin-top: 32px;
+}
+
+.hero_btn:hover, .hero_btn:focus {
+    border: 2px solid #4D4D4D;
+    background-color: #4CAF4F;
+}
