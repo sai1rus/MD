@@ -38,10 +38,26 @@ body {
 }
 
 .container {
-    padding: 22px 84px;
+    padding: 0 84px;
+}
+
+h2 {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    margin: 0;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    margin: 0;
 }
 
 /* Цвета */
+
+
 
 .bg-grey {
     background-color: #F5F7FA;
@@ -93,6 +109,10 @@ body {
 
 /* Header */
 
+.header{
+    padding: 22px 0;
+}
+
 .header_link:active {
     font-weight: 500;
 }
@@ -121,8 +141,8 @@ body {
 
 /* hero */
 
-.hero .row {
-    margin: 74px 0;
+.hero {
+    padding: 96px 0;
 }
 
 .hero_title {
@@ -133,8 +153,7 @@ body {
 }
 
 .hero_text {
-    line-height: 24px;
-    margin: 16px 0 0 0;
+    margin-top: 16px;
 }
 
 .hero_btn {
@@ -148,4 +167,58 @@ body {
 .hero_btn:hover, .hero_btn:focus {
     border: 2px solid #4D4D4D;
     background-color: #4CAF4F;
+}
+
+/* clients */
+
+.clients {
+    padding: 40px 0;
+}
+
+.clients_text {
+    margin-top: 8px;
+}
+
+.clients_list {
+    margin-top: 16px;
+    padding: 25px 0;
+}
+
+/* system */
+
+.system {
+    padding-bottom: 42px;
+}
+
+.system_title {
+    max-width: 542px;
+}
+
+.system_text {
+    margin-top: 8px
+}
+
+.system_cards {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.system_card {
+    max-width: 299px;
+    padding: 8px;
+    padding-top: 24px;
+    border: none;
+}
+
+.system_card h3 {
+    max-width: 245px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+.system_card p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }
