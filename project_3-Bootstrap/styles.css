@@ -244,6 +244,11 @@ p {
 }
 
 .promo_btn {
-    max-width: 153px;
+    max-width: 155px;
     margin-top: 32px;
+}
+
+.promo_btn:hover, .promo_btn:focus {
+    border: 2px solid #4D4D4D;
+    background-color: #4CAF4F;
 }
