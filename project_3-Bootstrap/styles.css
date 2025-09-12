@@ -270,10 +270,8 @@ p {
 }
 
 .statistics_list {
-    /* max-width: 540px; */
     padding: 0;
     row-gap: 40px;
-    /* column-gap: 80px; */
 }
 
 .statistics_values {
