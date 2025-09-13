@@ -62,6 +62,21 @@ p {
     line-height: 24px;
 }
 
+.link {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.link img {
+    margin-left: 8px;
+}
+
+.link:hover, .link:focus {
+    opacity: 0.75;
+}
+
 /* Цвета */
 
 
@@ -212,6 +227,7 @@ p {
     padding: 8px;
     padding-top: 24px;
     border: none;
+    box-shadow: 0 2px 4px 0 rgba(171, 190, 209, 0.20);
 }
 
 .system_card h3 {
@@ -283,3 +299,27 @@ p {
 .statistics_item {
     gap: 16px;
 }
+
+/* reviews */
+
+.reviews {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.reviews-text {
+    font-weight: 500;
+    margin-bottom: 24px;
+}
+
+.reviews-autor {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 8px;
+}
+
+.reviews-castomers {
+    margin-top: 32px;
+}
+
