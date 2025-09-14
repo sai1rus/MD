@@ -85,7 +85,7 @@ p {
     background-color: #F5F7FA;
 }
 
-.bg-black {
+.bgc-black {
     background-color: #263238;
 }
 
@@ -322,4 +322,152 @@ p {
 .reviews-castomers {
     margin-top: 32px;
 }
+
+/* community */
+
+.community {
+    padding-top: 48px;
+    padding-bottom: 95px;
+}
+
+.community_text {
+    max-width: 628px;
+    margin-top: 8px;
+}
+
+.community-upda-list {
+    width: 100%;
+    margin-top: 16px;
+}
+
+.community-upda{
+    width: 368px;
+    border: none;
+}
+
+.community-upda img {
+    z-index: 1;
+}
+
+.community-upda .card-body {
+    max-width: 317px;
+    margin-top: -96px;
+    padding-bottom: 24px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(171, 190, 209, 0.40);
+    z-index: 2;
+}
+
+.community-upda .card-text {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+}
+
+.community-upda .card-link {
+    margin-top: 24px;
+}
+
+/* demo */
+
+.demo {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.demo_title {
+    max-width: 666px;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 76px;
+}
+
+.demo_btn {
+    max-width: 178px;
+    margin-top: 32px;
+}
+
+.demo_btn:hover, .demo_btn:focus {
+    border: 2px solid #4D4D4D;
+    background-color: #4CAF4F;
+}
+
+.demo_btn:hover img, .demo_btn:focus img {
+    filter: invert(1);
+}
+
+/* footer */
+
+.footer {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+.footer p, a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-decoration: none;
+}
+
+.footer h4 {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 28px;
+    margin-bottom: 24px;
+}
+
+.company-info {
+    gap: 40px;
+}
+
+.copy {
+    gap: 8px;
+}
+
+.social a:hover img, .social a:focus img {
+    filter: invert(1);
+}
+
+.footer .list-group {
+    gap: 12px;
+}
+
+.footer .list-group-item {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.footer .list-group-item a:hover, .footer .list-group-item a:focus {
+    opacity: 0.75;
+}
+
+.footer .input input{
+    max-width: 211px;
+    padding: 9px 12px 11px;
+    border: none;
+    border-radius: 8px 0 0 8px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.footer .input input::placeholder {
+    color: #D9DBE1;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+.footer .input button {
+    max-width: 44px;
+    padding: 9px 13px 12px;
+    border: none;
+    border-radius: 0 8px 8px 0;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+
+
+
+
 
